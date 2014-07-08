@@ -9,12 +9,16 @@ basic instructions
 ------------------
 
 --open the database
+
 sqlite3.exe drawTeams.db 
 
 --command shell sqlLite3 :
-.tables -> list all tables
-select *from authentication; -> do a basic select
-.quit -> exit the command shell
+
+|instructions                 | comments                |
+|-----------------------------|-------------------------|
+|.tables                      | list all tables         |
+|select *from authentication; | do a basic select       |
+|.quit                        | exit the command shell  |
 
 batch
 -----
