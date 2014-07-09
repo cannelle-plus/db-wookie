@@ -3,18 +3,21 @@ db-wookie
 
 setup
 -----
-install first http://system.data.sqlite.org/downloads/1.0.93.0/sqlite-netFx45-setup-bundle-x64-2012-1.0.93.0.exe
+install first http://system.data.sqlite.org/blobs/1.0.93.0/sqlite-netFx451-setup-bundle-x86-2013-1.0.93.0.exe
 
 basic instructions 
 ------------------
 
 --open the database
+
 sqlite3.exe drawTeams.db 
 
 --command shell sqlLite3 :
-.tables -> list all tables
-select *from authentication; -> do a basic select
-.quit -> exit the command shell
+|instructions                 | comments                |
+|-----------------------------|-------------------------|
+|.tables                      | list all tables         |
+|select *from authentication; | do a basic select       |
+|.quit                        | exit the command shell  |
 
 batch
 -----

@@ -1,0 +1,20 @@
+--sql for authentication
+
+BEGIN TRANSACTION;
+
+CREATE TABLE Authentication (username text primary key, password text);
+CREATE TABLE Session (tokenId text , expirationDate text, userName text);
+
+
+COMMIT;
+BEGIN TRANSACTION;
+
+--sql for authentication
+Insert into Authentication VALUES ('admin', 'yogolo49');
+
+--sql for session
+Insert into Session VALUES ('uuidGiven', '2099-12-31 23:59:59.999', 'admin');
+
+COMMIT;
+   
+.exit 
