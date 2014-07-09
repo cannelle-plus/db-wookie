@@ -5,6 +5,8 @@ setup
 -----
 install first http://system.data.sqlite.org/blobs/1.0.93.0/sqlite-netFx451-setup-bundle-x86-2013-1.0.93.0.exe
 
+run recreateDrawTeamsWithTestSample.bat
+
 basic instructions 
 ------------------
 
@@ -13,10 +15,7 @@ basic instructions
 sqlite3.exe drawTeams.db 
 
 --command shell sqlLite3 :
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 |instructions                 | comments                |
 |-----------------------------|-------------------------|
 |.tables                      | list all tables         |
