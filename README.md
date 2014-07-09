@@ -13,6 +13,10 @@ basic instructions
 sqlite3.exe drawTeams.db 
 
 --command shell sqlLite3 :
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 |instructions                 | comments                |
 |-----------------------------|-------------------------|
 |.tables                      | list all tables         |
